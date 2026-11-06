@@ -1,0 +1,11 @@
+[package]
+name = "mod-example"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+description = "Example Krebs mod: an engine hook, an HTTP route and a server feature flag"
+
+[dependencies]
+backend = { path = "../../crates/backend" }
+engine = { path = "../../crates/engine" }
+util = { path = "../../crates/util" }
